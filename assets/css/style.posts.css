@@ -1,18 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
 /* reset css */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    background-color: #f0f0f0;
+    background-image: url(../images/wallpaper\ warriors.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
 }
 
 h1 {
-    color: #d30000;
+    color: rgb(222, 216, 216);
     text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
 }
 
 main {
@@ -28,7 +36,7 @@ main {
     padding: 20px;
     border: 1px solid#ccc;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: rgb(235, 232, 232);
 }
 
 label,
@@ -46,7 +54,7 @@ textarea {
 }
 
 button {
-    background-color: #d30000;
+    background-color: #6b6767;
     color: #fff;
     cursor: pointer;
     width: 100%;
@@ -55,7 +63,7 @@ button {
 }
 
 button:hover {
-    background-color: #a00000;
+    background-color: rgb(128, 128, 128, 0.593);
     transition: 0.3s;
 }
 
@@ -67,12 +75,12 @@ button:hover {
 }
 
 .itemPost h2 {
-    color: #a00000;
+    color: rgb(128, 128, 128, 0.593);
     margin-bottom: 5px;
 }
 
 .itemPost button {
-    background-color: #d30000;
+    background-color: rgba(82, 82, 82, 0.593);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -92,7 +100,7 @@ button:hover {
 }
 
 .itemPost button:hover {
-    background-color: #a00000;
+    background-color: #80808097;
     transition: 0.3s;
 }
 
