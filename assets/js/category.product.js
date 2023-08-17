@@ -15,3 +15,17 @@ class Product {
     }
 }
 
+class CategoryService {
+    constructor() {
+        this.categories = [];
+        this.nextCategoryId = 0;
+    }
+
+    addCategory(name) {
+        const id = this.nextCategoryId ++;
+        const category = new Category(id, name);
+        this.categories.push(category);
+    }
+}
+
+
