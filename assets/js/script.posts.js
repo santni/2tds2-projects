@@ -96,3 +96,4 @@ function removePost(index) {
     }
 }
 
+
